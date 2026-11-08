@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://deftera.expo.app/sitemap.xml
