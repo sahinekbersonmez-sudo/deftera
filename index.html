@@ -7,16 +7,16 @@
 <meta name="description" content="Deftera: oto elektrik ve oto servisler için cari hesap, araç, iş emri, parça stoğu ve makbuz programı. Windows için 14 gün ücretsiz deneyin.">
 <meta property="og:title" content="Deftera · Oto servis cari ve stok defteri">
 <meta property="og:description" content="Müşteri bakiyeleri, araçlar, iş emirleri, stok ve makbuzlar tek yerde. 14 gün ücretsiz deneyin.">
-<meta property="og:image" content="https://deftera.expo.app/img/ana.png">
-<meta property="og:url" content="https://deftera.expo.app/">
+<meta property="og:image" content="https://deftera-net.org/img/ana.png">
+<meta property="og:url" content="https://deftera-net.org/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Deftera">
 <meta property="og:locale" content="tr_TR">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://deftera.expo.app/">
+<link rel="canonical" href="https://deftera-net.org/">
 <meta name="google-site-verification" content="pxjGgx8bm1j0z7yyGIqYkl4e8OFTnQC9JRDG_EGr-0I" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Deftera","url":"https://deftera.expo.app/","image":"https://deftera.expo.app/img/logo.png","screenshot":"https://deftera.expo.app/img/ana.png","applicationCategory":"BusinessApplication","operatingSystem":"Windows 10, Windows 11, Android","inLanguage":"tr","description":"Oto elektrik ve oto servisler için cari hesap, araç kaydı, iş emri, parça stoğu ve makbuz programı.","offers":{"@type":"Offer","price":"1299","priceCurrency":"TRY","url":"https://deftera.expo.app/#fiyat"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Deftera","url":"https://deftera-net.org/","image":"https://deftera-net.org/img/logo.png","screenshot":"https://deftera-net.org/img/ana.png","applicationCategory":"BusinessApplication","operatingSystem":"Windows 10, Windows 11, Android","inLanguage":"tr","description":"Oto elektrik ve oto servisler için cari hesap, araç kaydı, iş emri, parça stoğu ve makbuz programı.","offers":{"@type":"Offer","price":"1299","priceCurrency":"TRY","url":"https://deftera-net.org/#fiyat"}}
 </script>
 <link rel="icon" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -301,7 +301,7 @@ footer a{color:var(--ink-2)}
     <span class="mi"><svg class="ic"><use href="#i-win"/></svg></span>
     <h3 id="mdlg-t">iPhone uygulaması yakında</h3>
     <p>Deftera şimdilik Windows bilgisayarlarda ve Android telefonlarda çalışır. iPhone uygulaması yakında App Store'da. Bilgisayar programı için bu adresi bilgisayarınızda açın:</p>
-    <span class="url">deftera.expo.app</span>
+    <span class="url">deftera-net.org</span>
     <div class="col">
       <a class="btn p" id="mdlg-wa" href="#" target="_blank" rel="noopener">WhatsApp ile kendime gönder</a>
       <button class="btn s" id="mdlg-kopya" type="button">Bağlantıyı kopyala</button>
@@ -352,7 +352,7 @@ adlg.addEventListener('click', e => { if (e.target === adlg) adlg.hidden = true;
 // Telefon/tablet: Windows kurulum dosyasını indirmek yerine "bilgisayarda açın" penceresi
 const mobil = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 const mdlg = document.getElementById('mdlg');
-const siteUrl = 'https://deftera.expo.app';
+const siteUrl = 'https://deftera-net.org';
 document.getElementById('mdlg-wa').href = 'https://wa.me/?text=' + encodeURIComponent('Deftera’yı bilgisayarıma indirmek için: ' + siteUrl);
 document.getElementById('mdlg-kapat').addEventListener('click', () => { mdlg.hidden = true; });
 mdlg.addEventListener('click', e => { if (e.target === mdlg) mdlg.hidden = true; });
